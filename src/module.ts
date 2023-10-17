@@ -17,9 +17,9 @@ export default defineNuxtModule<ModuleOptions>({
     addPlugin(resolver.resolve('./runtime/plugin'))
 
     // components
-    addComponentsDir({ path: resolver.resolve('./components') })
+    addComponentsDir({ path: resolver.resolve('./runtime/components') })
 
     // composables
-    addImportsDir(resolver.resolve('./composables'))
+    addImportsDir(resolver.resolve('./runtime/composables'))
   }
 })
