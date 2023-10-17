@@ -3,7 +3,7 @@ Get your module up and running quickly.
 
 Find and replace all on all files (CMD+SHIFT+F):
 - Name: nuxt-transitions
-- Package name: my-module
+- Package name: @freeloop/nuxt-transitions
 - Description: My new Nuxt module
 -->
 
@@ -17,37 +17,35 @@ Find and replace all on all files (CMD+SHIFT+F):
 My new Nuxt module for doing amazing things.
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-  <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/my-module?file=playground%2Fapp.vue) -->
+  <!-- - [🏀 Online playground](https://stackblitz.com/github/zh-kai/nuxt-transitions?file=playground%2Fapp.vue) -->
   <!-- - [📖 &nbsp;Documentation](https://example.com) -->
 
 ## Features
 
 <!-- Highlight some of the features your module provide here -->
 
-- ⛰ &nbsp;Foo
-- 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- ...
 
 ## Quick Setup
 
-1. Add `my-module` dependency to your project
+1. Add `@freeloop/nuxt-transitions` dependency to your project
 
 ```bash
 # Using pnpm
-pnpm add -D my-module
+pnpm add -D @freeloop/nuxt-transitions
 
 # Using yarn
-yarn add --dev my-module
+yarn add --dev @freeloop/nuxt-transitions
 
 # Using npm
-npm install --save-dev my-module
+npm install --save-dev @freeloop/nuxt-transitions
 ```
 
-2. Add `my-module` to the `modules` section of `nuxt.config.ts`
+2. Add `@freeloop/nuxt-transitions` to the `modules` section of `nuxt.config.ts`
 
 ```js
 export default defineNuxtConfig({
-  modules: ['my-module']
+  modules: ['@freeloop/nuxt-transitions']
 })
 ```
 
@@ -81,11 +79,11 @@ npm run release
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/my-module/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/my-module
-[npm-downloads-src]: https://img.shields.io/npm/dm/my-module.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-downloads-href]: https://npmjs.com/package/my-module
-[license-src]: https://img.shields.io/npm/l/my-module.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/my-module
+[npm-version-src]: https://img.shields.io/npm/v/@freeloop/nuxt-transitions/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/@freeloop/nuxt-transitions
+[npm-downloads-src]: https://img.shields.io/npm/dm/@freeloop/nuxt-transitions.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/@freeloop/nuxt-transitions
+[license-src]: https://img.shields.io/npm/l/@freeloop/nuxt-transitions.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/@freeloop/nuxt-transitions
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com
