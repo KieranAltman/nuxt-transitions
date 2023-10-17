@@ -44,7 +44,7 @@ const scaleElement = (el: HTMLElement, event: NuxtTransitionEvents = 'enter') =>
   let origin = Array.isArray(props.origin) ? props.origin : props.origin[event]
   let axis = typeof props.axis === 'string' ? props.axis : props.axis[event]
   let scale = typeof props.scale === 'number' ? props.scale : props.scale[event]
-  scale = clamp(0.0001, scale, 0.9999) // @note: zero not animatable
+  scale = clamp(0.0001, scale, 0.9999) // zero not animatable
 
   // computed end state
   const { matrixType, matrix } = getMatrix(transform)

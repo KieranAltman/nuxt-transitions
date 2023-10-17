@@ -2,13 +2,9 @@
   <div>
     Nuxt module playground!
     <button @click="toggle">Toggle</button>
-    <TransitionScale
-      :scale="0.8"
-      :axis="{ enter: 'both', leave: 'y' }"
-      :origin="{ enter: [100, 0], leave: [100, 100] }"
-    >
-      <div v-if="show" class="content">Lorem</div>
-    </TransitionScale>
+    <TransitionExpand axis="x">
+      <div v-if="show" class="content"></div>
+    </TransitionExpand>
   </div>
 </template>
 
@@ -25,6 +21,7 @@ const toggle = () => {
 .content {
   width: 128px;
   height: 128px;
+  padding: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
