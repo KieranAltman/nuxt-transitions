@@ -28,10 +28,10 @@ jobs:
           node-version: '18'
       - name: Setup Pages
         uses: actions/configure-pages@v3
-      - name: Enter Playground Folder
-        run: cd ./playground
       - name: Install dependencies
         run: yarn
+      - name: Install Playground dependencies
+        run: cd ./playground && yarn
       - name: Static HTML export with Nuxt
         run: NUXT_APP_BASE_URL=/${{ github.event.repository.name }}/ yarn generate
       - name: Upload artifact
