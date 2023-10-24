@@ -8,7 +8,7 @@
 import { Transition, TransitionGroup } from 'vue-demi'
 import { getMatrix, clamp } from '../utils'
 import { useBaseTransition } from '../composables'
-import { NuxtTransitionEvents, NuxtTransitionAxis } from '../types'
+import type { NuxtTransitionEvents, NuxtTransitionAxis } from '../types'
 
 const props = withDefaults(
   defineProps<{
