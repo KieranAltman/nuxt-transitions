@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.6
+
+[compare changes](https://github.com/zh-kai/nuxt-transitions/compare/v0.1.5...v0.1.6)
+
+### 🚀 Enhancements
+
+- Support duration ([1639ccf](https://github.com/zh-kai/nuxt-transitions/commit/1639ccf))
+
+### ❤️ Contributors
+
+- Zh-kai ([@zh-kai](http://github.com/zh-kai))
+
 ## v0.1.5
 
 [compare changes](https://github.com/zh-kai/nuxt-transitions/compare/v0.1.4...v0.1.5)
