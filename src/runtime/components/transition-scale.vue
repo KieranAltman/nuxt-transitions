@@ -12,19 +12,21 @@ import type { NuxtTransitionEvents, NuxtTransitionAxis } from '../types'
 
 const props = withDefaults(
   defineProps<{
+    duration?: number
     group?: boolean
     scale?: number | Record<NuxtTransitionEvents, number>
     axis?: NuxtTransitionAxis | Record<NuxtTransitionEvents, NuxtTransitionAxis>
     origin?: number[] | Record<NuxtTransitionEvents, number[]>
   }>(),
   {
+    duration: 150,
     group: false,
     scale: 0,
     axis: 'both',
     origin: () => [50, 50]
   }
 )
-const { setupTransition, resetProperty } = useBaseTransition()
+const { setupTransition, resetProperty } = useBaseTransition(props)
 
 const onEnter = (el: HTMLElement) => {
   scaleElement(el)

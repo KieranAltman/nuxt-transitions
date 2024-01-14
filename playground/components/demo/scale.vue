@@ -5,6 +5,7 @@
         :scale="scale"
         :origin="{ enter: [origin.enter.x, origin.enter.y], leave: [origin.leave.x, origin.leave.y] }"
         :axis="axis"
+        :duration="duration"
       >
         <Placeholder v-if="show" />
       </TransitionScale>
@@ -12,6 +13,12 @@
 
     <div>
       <h2 class="mb-4 text-lg font-medium">Options</h2>
+
+      <h3 class="mb-2 text-sm">Duration</h3>
+      <label class="mb-6 flex items-center gap-2 border border-slate-200 rounded px-1 py-0.5">
+        <input type="text" v-model="duration" class="flex-grow px-1 outline-none" />
+        <span class="text-sm text-black/50">ms</span>
+      </label>
 
       <h3 class="mb-2 text-sm">Scale value</h3>
       <div class="grid grid-cols-2 gap-4 mb-6">
@@ -105,4 +112,5 @@ const axis = reactive({
   enter: 'both',
   leave: 'both'
 })
+const duration = ref(150)
 </script>

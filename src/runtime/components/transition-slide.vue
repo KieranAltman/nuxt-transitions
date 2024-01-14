@@ -12,15 +12,17 @@ import type { NuxtTransitionEvents } from '../types'
 
 const props = withDefaults(
   defineProps<{
+    duration?: number
     group?: boolean
     offset?: (number | string)[] | Record<NuxtTransitionEvents, (number | string)[]>
   }>(),
   {
+    duration: 150,
     group: false,
     offset: () => [0, 10]
   }
 )
-const { setupTransition, resetProperty } = useBaseTransition()
+const { setupTransition, resetProperty } = useBaseTransition(props)
 
 const onEnter = (el: HTMLElement) => {
   slideElement(el)

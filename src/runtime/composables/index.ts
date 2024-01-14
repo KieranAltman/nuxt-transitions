@@ -1,4 +1,4 @@
-export function useBaseTransition() {
+export function useBaseTransition(props?: { duration: number }) {
   const resetProperty = (el: HTMLElement, properties: string[]) => {
     properties.forEach(property => {
       el.style.removeProperty(property)
@@ -6,7 +6,7 @@ export function useBaseTransition() {
   }
 
   const setupTransition = (el: HTMLElement, properties: string[] = []) => {
-    const duration = 150
+    const duration = props?.duration ?? 150
     const easing = 'ease-in-out'
     const delay = 0
 
