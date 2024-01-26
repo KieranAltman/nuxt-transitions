@@ -1,5 +1,5 @@
 import { defineNuxtPlugin } from '#app'
 
 export default defineNuxtPlugin(nuxtApp => {
-  console.log('Plugin injected by @freeloop/nuxt-transitions!')
+  console.log('Transitions Plugin injected!')
 })
