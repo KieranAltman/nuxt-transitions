@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v0.1.7
+
+[compare changes](https://github.com/zh-kai/nuxt-transitions/compare/v0.1.5...v0.1.7)
+
+### 🚀 Enhancements
+
+- Support duration ([1639ccf](https://github.com/zh-kai/nuxt-transitions/commit/1639ccf))
+
+### 🩹 Fixes
+
+- Plugin inject console ([bd4b123](https://github.com/zh-kai/nuxt-transitions/commit/bd4b123))
+
+### 🏡 Chore
+
+- **release:** V0.1.6 ([5b22d0f](https://github.com/zh-kai/nuxt-transitions/commit/5b22d0f))
+
+### ❤️ Contributors
+
+- Zh-kai <zh_kai0531@163.com>
+
 ## v0.1.6
 
 [compare changes](https://github.com/zh-kai/nuxt-transitions/compare/v0.1.5...v0.1.6)
