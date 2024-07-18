@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.8
+
+[compare changes](https://github.com/zh-kai/nuxt-transitions/compare/v0.1.7...v0.1.8)
+
+### 🏡 Chore
+
+- Clear useless code ([78cb6ad](https://github.com/zh-kai/nuxt-transitions/commit/78cb6ad))
+
+### ❤️ Contributors
+
+- KieranAltman <zh_kai0531@163.com>
+
 ## v0.1.7
 
 [compare changes](https://github.com/zh-kai/nuxt-transitions/compare/v0.1.5...v0.1.7)
